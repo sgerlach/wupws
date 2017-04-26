@@ -32,5 +32,5 @@ Workflow:
 - edit the script with all of your personal variables
 - set a cronjob to run the script with your desired frequency - keep it at every 3 minutes or more to stay under the WU 500 API calls/day limit
  or if you have more than one station multiply the minutes by number of stations, in this case 6
-     - */6 * * * * /home/wupws/run_weather_update.sh
+     - */6 * * * * ~/wupws/run_weather_update.sh
 - profit
